@@ -29,4 +29,21 @@ git push
 ```
 
 
+<h4> Obtaining the Corpus </h4>
+
+I chose a language between in the 1000+ articles range : "Gaelg"  which is the Manx language also known as Manx Gaelic. 
+Language Code is "gv".
+
+I downloaded the Gaelic Articles from the wikimedia dumps page 
+
+```
+wget https://dumps.wikimedia.org/gvwiki/20221101/gvwiki-20221101-pages-articles-multistream.xml.bz2
+```
+
+```
+python WikiExtractor.py --infn gvwiki-20221101-pages-articles-multistream.xml.bz2
+```
+
+Finally a wiki.txt file is generated which contains the corupus in a text file.
+
 
