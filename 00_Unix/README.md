@@ -50,32 +50,34 @@ Finally a wiki.txt file is generated which contains the corupus in a text file.
 <h3> Lab 0 - Class 1</h3>
 
 <ol>
-  <li> Count words in a text </li>
+  <li> Count words in a text 
   The problem is to input a text file, and output a list of words in the file along with their frequency counts. The algorithm consists of three steps:
   <ul>
     <li>Tokenise the text into a sequence of words (sed),</li>
     <li>Sort the words (sort -r), </li>
     <li>Count duplicates (uniq -c).</li>
     We utilise the power of simple shell commands which help tokenize the corpus. 'SED' is used to replace all non-alphabetic characters with '\n'. It is easier to specify the alpabetic characters, hence we use the complement method '^' in our regular expression. Then, we sort the sequences in reverse order and finally display the sequences. The output of the final command is shown below
+   
+```
+  sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sort -r | uniq -c > wiki.hist
+```
+```
+sed 8q < wiki.txt
+```
+```
+sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sed 8q
+```
+```
+sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r | sed 10q
+```
+```
+sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r| uniq -c  | sed 10q
+ ```
   </ul>
-```
-    sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sort -r | uniq -c > wiki.hist
-    sed 8q < wiki.txt
-    sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sed 8q
-    sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r | sed 10q
-    sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r| uniq -c  | sed 10q
-```
-  ![image](https://user-images.githubusercontent.com/40687848/201550864-e500a6df-bf2d-4be9-9487-25a8c59e95d9.png)
-    <li>More Counting Exercises </li> 
-  
-  
-  
+     ![image](https://user-images.githubusercontent.com/40687848/201550864-e500a6df-bf2d-4be9-9487-25a8c59e95d9.png)
+  </li>
+  <li>  
+
+    <li>More Counting Exercises 
+
  </ol>
-  
-
- 
- 
-
-
-
-
