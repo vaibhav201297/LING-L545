@@ -59,7 +59,7 @@ Finally a wiki.txt file is generated which contains the corupus in a text file.
     We utilise the power of simple shell commands which help tokenize the corpus. 'SED' is used to replace all non-alphabetic characters with '\n'. It is easier to specify the alpabetic characters, hence we use the complement method '^' in our regular expression. Then, we sort the sequences in reverse order and finally display the sequences. The output of the final command is shown below
    
 ```
-  sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sort -r | uniq -c > wiki.hist
+sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sort -r | uniq -c > wiki.hist
 ```
 ```
 sed 8q < wiki.txt
@@ -72,12 +72,33 @@ sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r | sed 10q
 ```
 ```
 sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r| uniq -c  | sed 10q
- ```
+```
   </ul>
      ![image](https://user-images.githubusercontent.com/40687848/201550864-e500a6df-bf2d-4be9-9487-25a8c59e95d9.png)
   </li>
-  <li>  
-
-    <li>More Counting Exercises 
+    
+  <li>  More Counting Exercises <br/>
+    
+    <ul>
+    	<li>Count number of words after cnverting to upper case. 
+```
+uconv -x upper < wiki.txt | sed 's/[^A-Za-z]\+/\n/g'| sort -r| uniq -c  | sed 10q
+```
+			</li> 
+			<li>Count vowel sequences 
+```
+uconv -x upper < wiki.txt | sed 's/[^AEIOU]\+/\n/g'| sort -r| uniq -c  | sed 10q
+```
+			</li>
+			<li>
+			Count Consonant Sequences
+```
+uconv -x upper < wiki.txt | sed 's/[^BCDFGHJKLMNPQRSTVWXYZ]\+/\n/g'| sort -r| uniq -c  | sed 10q
+```
+			</li>
+	</ul>
+</li>
+	<li> Sort </li>  
+  
 
  </ol>
