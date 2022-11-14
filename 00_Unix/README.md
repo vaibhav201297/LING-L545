@@ -77,28 +77,46 @@ sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r| uniq -c  | sed 10q
      ![image](https://user-images.githubusercontent.com/40687848/201550864-e500a6df-bf2d-4be9-9487-25a8c59e95d9.png)
   </li>
     
-  <li>  More Counting Exercises <br/>
-    
-    <ul>
-    	<li>Count number of words after cnverting to upper case. 
-```
+<li>  
+More Counting Exercises <br/>
+<ul>
+		<li>Count number of words after cnverting to upper case. </li>
+		
+```		
 uconv -x upper < wiki.txt | sed 's/[^A-Za-z]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
-			</li> 
-			<li>Count vowel sequences 
+			 
+<li>Count vowel sequences </li>
+
 ```
 uconv -x upper < wiki.txt | sed 's/[^AEIOU]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
-			</li>
-			<li>
-			Count Consonant Sequences
+			 
+<li> Count Consonant Sequences </li>
+
 ```
 uconv -x upper < wiki.txt | sed 's/[^BCDFGHJKLMNPQRSTVWXYZ]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
-			</li>
-	</ul>
+</ul>
 </li>
 	<li> Sort </li>  
+Sort the words in Wikipedia by frequency sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -nr
   
+```
+sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -nr
+```
+Sort them by folding case
 
- </ol>
+```
+sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -f
+```
+
+Sort them by rhyming order.
+
+```
+sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | rev |  sort | uniq -c | sort -f
+```
+
+
+
+</ol>
