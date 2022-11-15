@@ -116,7 +116,14 @@ Sort them by rhyming order.
 ```
 sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | rev |  sort | uniq -c | sort -f
 ```
+	<li> Bigrams </li>
 
+```
+sed 's/[^A-Za-z]\+/\n/g' < wiki.txt > wiki.words
+tail -n +2 wiki.words > wiki.nextwords
+paste wiki.words wiki.nextwords
+
+```
 
 
 </ol>
