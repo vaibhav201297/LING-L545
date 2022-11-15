@@ -116,6 +116,8 @@ Sort them by rhyming order.
 ```
 sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | rev |  sort | uniq -c | sort -f
 ```
+
+</li>
 	<li> Bigrams </li>
 
 ```
@@ -124,6 +126,12 @@ tail -n +2 wiki.words > wiki.nextwords
 paste wiki.words wiki.nextwords
 
 ```
+The 15 most frequent bigrams in Manx Language
+
+```
+sort -nr < wiki.bigrams | sed 15q
+```
+![image](https://user-images.githubusercontent.com/40687848/202023466-76a54aa6-8bf5-4ae8-ab2d-0dbac0bb86d4.png)
 
 
 </ol>
