@@ -12,7 +12,7 @@ for c in sys.stdin.read():
 #Count ' '(space) characters and increment token counter        
     elif c ==' ':
         tokens+=1
-    elif c in 'कखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅँॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣंः':
+    elif c in 'aeiouy':
         consonants+=1
     elif c in 'ऄअआइईउऊऋऌऍऎएऐऑॲऒओऔ':
         vowels+=1
