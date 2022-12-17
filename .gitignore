@@ -1,0 +1,10 @@
+/00_Unix/wiki.txt
+/00_Unix/wiki_subset.txt
+/00_Unix/mrwiki-20221201-pages-articles-multistream.xml.bz2
+01_Tokenisation/pragmatic_segmenter/
+01_Tokenisation/UD_Japanese-GSD/
+/01_Tokenisation/wiki.txt
+03_Disambiguation/udpipe
+03_Disambiguation/UD_Finnish-TDT
+03_Disambiguation/conllu-perceptron-tagger
+01_Tokenisation/fiwiki-20221201-pages-articles-multistream.xml.bz2

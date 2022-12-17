@@ -31,20 +31,25 @@ git push
 
 <h4> Obtaining the Corpus </h4>
 
-I chose a language between in the 1000+ articles range : "Gaelg"  which is the Manx language also known as Manx Gaelic. 
-Language Code is "gv".
+I chose a language between in the 1000+ articles range : "marathi"  which is the language used in my hometown
+Language Code is "mr".
 
-I downloaded the Gaelic Articles from the wikimedia dumps page 
-
-```
-wget https://dumps.wikimedia.org/gvwiki/20221101/gvwiki-20221101-pages-articles-multistream.xml.bz2
-```
+I downloaded the Marathi Articles from the wikimedia dumps page 
 
 ```
-python WikiExtractor.py --infn gvwiki-20221101-pages-articles-multistream.xml.bz2
+wget https://dumps.wikimedia.org/mrwiki/20221201/mrwiki-20221201-pages-articles-multistream.xml.bz2
+```
+
+```
+python3 WikiExtractor.py --infn mrwiki-20221201-pages-articles-multistream.xml.bz2
 ```
 
 Finally a wiki.txt file is generated which contains the corupus in a text file.
+Since the corpus of Marathi Articles is too large, I reduced the file size by taking 50Mb data from the text file to create wiki_subset.txt
+
+```
+tail -c 50m wiki.txt > wiki_subset.txt
+```
 
 <hr>
 <h3> Lab 0 - Class 1</h3>
@@ -59,23 +64,22 @@ Finally a wiki.txt file is generated which contains the corupus in a text file.
     We utilise the power of simple shell commands which help tokenize the corpus. 'SED' is used to replace all non-alphabetic characters with '\n'. It is easier to specify the alpabetic characters, hence we use the complement method '^' in our regular expression. Then, we sort the sequences in reverse order and finally display the sequences. The output of the final command is shown below
    
 ```
-sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sort -r | uniq -c > wiki.hist
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki_subset.txt | sort -r | uniq -c > wiki_subset.hist
+
 ```
 ```
 sed 8q < wiki.txt
 ```
 ```
-sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt | sed 8q
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt  | sed 8q
 ```
 ```
-sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r | sed 10q
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt | sort -r | sed 10q
 ```
 ```
-sed 's/[^a-zA-Z]\+/\n/g' < wiki.txt| sort -r| uniq -c  | sed 10q
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt | sort -r| uniq -c  | sed 10q
 ```
-  </ul>
-     ![image](https://user-images.githubusercontent.com/40687848/201550864-e500a6df-bf2d-4be9-9487-25a8c59e95d9.png)
-  </li>
+
     
 <li>  
 More Counting Exercises <br/>
@@ -83,55 +87,54 @@ More Counting Exercises <br/>
 		<li>Count number of words after cnverting to upper case. </li>
 		
 ```		
-uconv -x upper < wiki.txt | sed 's/[^A-Za-z]\+/\n/g'| sort -r| uniq -c  | sed 10q
+uconv -x upper < wiki.txt | sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
 			 
 <li>Count vowel sequences </li>
 
 ```
-uconv -x upper < wiki.txt | sed 's/[^AEIOU]\+/\n/g'| sort -r| uniq -c  | sed 10q
+uconv -x upper < wiki.txt | sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋ]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
-			 
+
 <li> Count Consonant Sequences </li>
 
 ```
-uconv -x upper < wiki.txt | sed 's/[^BCDFGHJKLMNPQRSTVWXYZ]\+/\n/g'| sort -r| uniq -c  | sed 10q
+uconv -x upper < wiki.txt | sed 's/[^कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g'| sort -r| uniq -c  | sed 10q
 ```
 </ul>
 </li>
 	<li> Sort </li>  
-Sort the words in Wikipedia by frequency sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -nr
-  
+Sort the words in Wikipedia by frequency 
 ```
-sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -nr
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt | sort | uniq -c | sort -nr
 ```
 Sort them by folding case
 
 ```
-sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | sort | uniq -c | sort -f
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt | sort | uniq -c | sort -f
 ```
 
 Sort them by rhyming order.
 
 ```
-sed 's/[^A-Za-z]\+/\n/g' < wiki.txt | rev |  sort | uniq -c | sort -f
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki.txt | rev |  sort | uniq -c | sort -f
 ```
 
 </li>
 	<li> Bigrams </li>
 
 ```
-sed 's/[^A-Za-z]\+/\n/g' < wiki.txt > wiki.words
-tail -n +2 wiki.words > wiki.nextwords
-paste wiki.words wiki.nextwords
+sed 's/[^अआइईउऊएऐओऔअंअःॲऑऋकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक्षज्ञ]\+/\n/g' < wiki_subset.txt > wiki_subset.words
+tail -n +2 wiki_subset.words > wiki_subset.nextwords
+paste wiki_subset.words wiki_subset.nextwords | sort | uniq -c > wiki_subset.bigrams
+```
+The 15 most frequent bigrams in the corpus
 
 ```
-The 15 most frequent bigrams in Manx Language
+sort -nr < wiki_subset.bigrams | sed 15q
+```
 
-```
-sort -nr < wiki.bigrams | sed 15q
-```
-![image](https://user-images.githubusercontent.com/40687848/202023466-76a54aa6-8bf5-4ae8-ab2d-0dbac0bb86d4.png)
+
 
 
 </ol>
