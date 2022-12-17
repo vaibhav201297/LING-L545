@@ -138,3 +138,41 @@ sort -nr < wiki_subset.bigrams | sed 15q
 
 
 </ol>
+
+### Exercises with SED
+
+I have used a test_file.txt for these exercises as inputting Marathi Language vowels is very tough
+
+```
+sed 's/[AEIOUaeiou][A-Za-z]*//g' < test_file.txt  | sort -r | uniq -c > initial-consonants.hist
+```
+#### Output
+<pre>sed 10q initial-consonants.hist 
+      2 v
+      1 t 
+      1 sc
+      2 s 
+      2 s
+      1 P
+      1 p
+      1 N
+      2 n
+      4 m
+</pre>
+
+```
+sed 's/[A-Za-z]*[aeiouAEIOU]//g' < test_file.txt  | sort -r | uniq -c > final-consonants.hist
+```
+#### Output
+<pre>sed 10q final-consonants.hist 
+      3 t 
+      6 t
+      1 sl
+      4 s
+      3 r 
+      1 nt 
+      1 ng 
+      1 nc
+      2 n
+</pre>
+

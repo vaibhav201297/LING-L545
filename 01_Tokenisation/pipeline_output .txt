@@ -1,0 +1,429 @@
+# sent_id = 1
+# text =  L'aragonés  ( "idioma aragonés" u "luenga aragonesa" )  ye un idioma romance ,  luenga propia d'Aragón ,  parlato por bellas 25.556 personas sobretot en as comarcas pirinencas y prepirinencas d'o norte d'Aragón.
+1	L'aragonés	-	-	-	-	-	-	-	-
+2	(	-	-	-	-	-	-	-	-
+3	"idioma	-	-	-	-	-	-	-	-
+4	aragonés"	-	-	-	-	-	-	-	-
+5	u	-	-	-	-	-	-	-	-
+6	"luenga	-	-	-	-	-	-	-	-
+7	aragonesa"	-	-	-	-	-	-	-	-
+8	)	-	-	-	-	-	-	-	-
+9	ye	-	-	-	-	-	-	-	-
+10	un	-	-	-	-	-	-	-	-
+11	idioma	-	-	-	-	-	-	-	-
+12	romance	-	-	-	-	-	-	-	-
+13	,	-	-	-	-	-	-	-	-
+14	luenga	-	-	-	-	-	-	-	-
+15	propia	-	-	-	-	-	-	-	-
+16	d'Aragón	-	-	-	-	-	-	-	-
+17	,	-	-	-	-	-	-	-	-
+18	parlato	-	-	-	-	-	-	-	-
+19	por	-	-	-	-	-	-	-	-
+20	bellas	-	-	-	-	-	-	-	-
+21	25.556	-	-	-	-	-	-	-	-
+22	personas	-	-	-	-	-	-	-	-
+23	sobretot	-	-	-	-	-	-	-	-
+24	en	-	-	-	-	-	-	-	-
+25	as	-	-	-	-	-	-	-	-
+26	comarcas	-	-	-	-	-	-	-	-
+27	pirinencas	-	-	-	-	-	-	-	-
+28	y	-	-	-	-	-	-	-	-
+29	prepirinencas	-	-	-	-	-	-	-	-
+30	d'o	-	-	-	-	-	-	-	-
+31	norte	-	-	-	-	-	-	-	-
+32	d'Aragón.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 2
+# text =  En as atras comarcas aragonesas a on que se charró l'idioma ,  hue o substrato y influencia de l'aragonés ye encara perceptible en o castellano que se i fabla ,  más que más en os aragonesismos lexicos.
+1	En	-	-	-	-	-	-	-	-
+2	as	-	-	-	-	-	-	-	-
+3	atras	-	-	-	-	-	-	-	-
+4	comarcas	-	-	-	-	-	-	-	-
+5	aragonesas	-	-	-	-	-	-	-	-
+6	a	-	-	-	-	-	-	-	-
+7	on	-	-	-	-	-	-	-	-
+8	que	-	-	-	-	-	-	-	-
+9	se	-	-	-	-	-	-	-	-
+10	charró	-	-	-	-	-	-	-	-
+11	l'idioma	-	-	-	-	-	-	-	-
+12	,	-	-	-	-	-	-	-	-
+13	hue	-	-	-	-	-	-	-	-
+14	o	-	-	-	-	-	-	-	-
+15	substrato	-	-	-	-	-	-	-	-
+16	y	-	-	-	-	-	-	-	-
+17	influencia	-	-	-	-	-	-	-	-
+18	de	-	-	-	-	-	-	-	-
+19	l'aragonés	-	-	-	-	-	-	-	-
+20	ye	-	-	-	-	-	-	-	-
+21	encara	-	-	-	-	-	-	-	-
+22	perceptible	-	-	-	-	-	-	-	-
+23	en	-	-	-	-	-	-	-	-
+24	o	-	-	-	-	-	-	-	-
+25	castellano	-	-	-	-	-	-	-	-
+26	que	-	-	-	-	-	-	-	-
+27	se	-	-	-	-	-	-	-	-
+28	i	-	-	-	-	-	-	-	-
+29	fabla	-	-	-	-	-	-	-	-
+30	,	-	-	-	-	-	-	-	-
+31	más	-	-	-	-	-	-	-	-
+32	que	-	-	-	-	-	-	-	-
+33	más	-	-	-	-	-	-	-	-
+34	en	-	-	-	-	-	-	-	-
+35	os	-	-	-	-	-	-	-	-
+36	aragonesismos	-	-	-	-	-	-	-	-
+37	lexicos.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 3
+# text =  Denominación.
+1	Denominación.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 4
+# text =  A denominación formal mes común d'a luenga ye aragonés ,  nombre con que ye conoixita localment ,  historicament y internacional.
+1	A	-	-	-	-	-	-	-	-
+2	denominación	-	-	-	-	-	-	-	-
+3	formal	-	-	-	-	-	-	-	-
+4	mes	-	-	-	-	-	-	-	-
+5	común	-	-	-	-	-	-	-	-
+6	d'a	-	-	-	-	-	-	-	-
+7	luenga	-	-	-	-	-	-	-	-
+8	ye	-	-	-	-	-	-	-	-
+9	aragonés	-	-	-	-	-	-	-	-
+10	,	-	-	-	-	-	-	-	-
+11	nombre	-	-	-	-	-	-	-	-
+12	con	-	-	-	-	-	-	-	-
+13	que	-	-	-	-	-	-	-	-
+14	ye	-	-	-	-	-	-	-	-
+15	conoixita	-	-	-	-	-	-	-	-
+16	localment	-	-	-	-	-	-	-	-
+17	,	-	-	-	-	-	-	-	-
+18	historicament	-	-	-	-	-	-	-	-
+19	y	-	-	-	-	-	-	-	-
+20	internacional.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 5
+# text =  A tradición filolochica fa uso igualment d'o compuesto navarro-aragonés u navarroaragonés ta referir-se ,  más que más ,  a lo estadio medieval d'o idioma ,  a consonant con l'uso d'atros compuestos lingüistico-cheograficos ta atros romances peninsulars como lo galaico-portugués u l'astur-leyonés.
+1	A	-	-	-	-	-	-	-	-
+2	tradición	-	-	-	-	-	-	-	-
+3	filolochica	-	-	-	-	-	-	-	-
+4	fa	-	-	-	-	-	-	-	-
+5	uso	-	-	-	-	-	-	-	-
+6	igualment	-	-	-	-	-	-	-	-
+7	d'o	-	-	-	-	-	-	-	-
+8	compuesto	-	-	-	-	-	-	-	-
+9	navarro-aragonés	-	-	-	-	-	-	--
+10	u	-	-	-	-	-	-	-	-
+11	navarroaragonés	-	-	-	-	-	-	-	-
+12	ta	-	-	-	-	-	-	-	-
+13	referir-se	-	-	-	-	-	-	-	-
+14	,	-	-	-	-	-	-	-	-
+15	más	-	-	-	-	-	-	-	-
+16	que	-	-	-	-	-	-	-	-
+17	más	-	-	-	-	-	-	-	-
+18	,	-	-	-	-	-	-	-	-
+19	a	-	-	-	-	-	-	-	-
+20	lo	-	-	-	-	-	-	-	-
+21	estadio	-	-	-	-	-	-	-	-
+22	medieval	-	-	-	-	-	-	-	-
+23	d'o	-	-	-	-	-	-	-	-
+24	idioma	-	-	-	-	-	-	-	-
+25	,	-	-	-	-	-	-	-	-
+26	a	-	-	-	-	-	-	-	-
+27	consonant	-	-	-	-	-	-	-	-
+28	con	-	-	-	-	-	-	-	-
+29	l'uso	-	-	-	-	-	-	-	-
+30	d'atros	-	-	-	-	-	-	-	-
+31	compuestos	-	-	-	-	-	-	-	-
+32	lingüistico-cheograficos	-	-	-	-	-	--	-
+33	ta	-	-	-	-	-	-	-	-
+34	atros	-	-	-	-	-	-	-	-
+35	romances	-	-	-	-	-	-	-	-
+36	peninsulars	-	-	-	-	-	-	-	-
+37	como	-	-	-	-	-	-	-	-
+38	lo	-	-	-	-	-	-	-	-
+39	galaico-portugués	-	-	-	-	-	-	--
+40	u	-	-	-	-	-	-	-	-
+41	l'astur-leyonés.	-	-	-	-	-	-	--
+
+
+# sent_id = 6
+# text =  Popularment ,  a falta historica de claros referents lingüisticos y una diglosia multisecular con o castellano accentuoron as diferiencias dialectals de l'idioma ,  afavorindo una baixa conscienciación unitaria entre os parladors d'a luenga ,  y fendo que aquells que millor mantenioron o dialecto propio lo denominasen con un nombre local  ( ansotano ,  cheso ,  belsetán ,  chistabín ,  etc. )  Fabla ye una altra denominación informal ,  considerata alternativa per beluns ,  popularizata en a segunda metat d'o s.
+1	Popularment	-	-	-	-	-	-	-	-
+2	,	-	-	-	-	-	-	-	-
+3	a	-	-	-	-	-	-	-	-
+4	falta	-	-	-	-	-	-	-	-
+5	historica	-	-	-	-	-	-	-	-
+6	de	-	-	-	-	-	-	-	-
+7	claros	-	-	-	-	-	-	-	-
+8	referents	-	-	-	-	-	-	-	-
+9	lingüisticos	-	-	-	-	-	-	-	-
+10	y	-	-	-	-	-	-	-	-
+11	una	-	-	-	-	-	-	-	-
+12	diglosia	-	-	-	-	-	-	-	-
+13	multisecular	-	-	-	-	-	-	-	-
+14	con	-	-	-	-	-	-	-	-
+15	o	-	-	-	-	-	-	-	-
+16	castellano	-	-	-	-	-	-	-	-
+17	accentuoron	-	-	-	-	-	-	-	-
+18	as	-	-	-	-	-	-	-	-
+19	diferiencias	-	-	-	-	-	-	-	-
+20	dialectals	-	-	-	-	-	-	-	-
+21	de	-	-	-	-	-	-	-	-
+22	l'idioma	-	-	-	-	-	-	-	-
+23	,	-	-	-	-	-	-	-	-
+24	afavorindo	-	-	-	-	-	-	-	-
+25	una	-	-	-	-	-	-	-	-
+26	baixa	-	-	-	-	-	-	-	-
+27	conscienciación	-	-	-	-	-	-	-	-
+28	unitaria	-	-	-	-	-	-	-	-
+29	entre	-	-	-	-	-	-	-	-
+30	os	-	-	-	-	-	-	-	-
+31	parladors	-	-	-	-	-	-	-	-
+32	d'a	-	-	-	-	-	-	-	-
+33	luenga	-	-	-	-	-	-	-	-
+34	,	-	-	-	-	-	-	-	-
+35	y	-	-	-	-	-	-	-	-
+36	fendo	-	-	-	-	-	-	-	-
+37	que	-	-	-	-	-	-	-	-
+38	aquells	-	-	-	-	-	-	-	-
+39	que	-	-	-	-	-	-	-	-
+40	millor	-	-	-	-	-	-	-	-
+41	mantenioron	-	-	-	-	-	-	-	-
+42	o	-	-	-	-	-	-	-	-
+43	dialecto	-	-	-	-	-	-	-	-
+44	propio	-	-	-	-	-	-	-	-
+45	lo	-	-	-	-	-	-	-	-
+46	denominasen	-	-	-	-	-	-	-	-
+47	con	-	-	-	-	-	-	-	-
+48	un	-	-	-	-	-	-	-	-
+49	nombre	-	-	-	-	-	-	-	-
+50	local	-	-	-	-	-	-	-	-
+51	(	-	-	-	-	-	-	-	-
+52	ansotano	-	-	-	-	-	-	-	-
+53	,	-	-	-	-	-	-	-	-
+54	cheso	-	-	-	-	-	-	-	-
+55	,	-	-	-	-	-	-	-	-
+56	belsetán	-	-	-	-	-	-	-	-
+57	,	-	-	-	-	-	-	-	-
+58	chistabín	-	-	-	-	-	-	-	-
+59	,	-	-	-	-	-	-	-	-
+60	etc.	-	-	-	-	-	-	-	-
+61	)	-	-	-	-	-	-	-	-
+62	Fabla	-	-	-	-	-	-	-	-
+63	ye	-	-	-	-	-	-	-	-
+64	una	-	-	-	-	-	-	-	-
+65	altra	-	-	-	-	-	-	-	-
+66	denominación	-	-	-	-	-	-	-	-
+67	informal	-	-	-	-	-	-	-	-
+68	,	-	-	-	-	-	-	-	-
+69	considerata	-	-	-	-	-	-	-	-
+70	alternativa	-	-	-	-	-	-	-	-
+71	per	-	-	-	-	-	-	-	-
+72	beluns	-	-	-	-	-	-	-	-
+73	,	-	-	-	-	-	-	-	-
+74	popularizata	-	-	-	-	-	-	-	-
+75	en	-	-	-	-	-	-	-	-
+76	a	-	-	-	-	-	-	-	-
+77	segunda	-	-	-	-	-	-	-	-
+78	metat	-	-	-	-	-	-	-	-
+79	d'o	-	-	-	-	-	-	-	-
+80	s.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 7
+# text =  XX.
+1	XX.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 8
+# text =  En realidat ye un alcurzamiento d'a expresión "fabla aragonesa" ,  inspirata en a de "fabla chesa" ,  usata en cheso.
+1	En	-	-	-	-	-	-	-	-
+2	realidat	-	-	-	-	-	-	-	-
+3	ye	-	-	-	-	-	-	-	-
+4	un	-	-	-	-	-	-	-	-
+5	alcurzamiento	-	-	-	-	-	-	-	-
+6	d'a	-	-	-	-	-	-	-	-
+7	expresión	-	-	-	-	-	-	-	-
+8	"fabla	-	-	-	-	-	-	-	-
+9	aragonesa"	-	-	-	-	-	-	-	-
+10	,	-	-	-	-	-	-	-	-
+11	inspirata	-	-	-	-	-	-	-	-
+12	en	-	-	-	-	-	-	-	-
+13	a	-	-	-	-	-	-	-	-
+14	de	-	-	-	-	-	-	-	-
+15	"fabla	-	-	-	-	-	-	-	-
+16	chesa"	-	-	-	-	-	-	-	-
+17	,	-	-	-	-	-	-	-	-
+18	usata	-	-	-	-	-	-	-	-
+19	en	-	-	-	-	-	-	-	-
+20	cheso.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 9
+# text =  Situación.
+1	Situación.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 10
+# text =  L'aragonés ye encara parlato como luenga materna en o suyo nuclio orichinal ,  as montanyas aragonesas d'os Pirineus ,  en as comarcas d'o Viello Aragón  ( Chacetania y Alto Galligo )  ,  Semontano ,  Sobrarbe y Ribagorza.
+1	L'aragonés	-	-	-	-	-	-	-	-
+2	ye	-	-	-	-	-	-	-	-
+3	encara	-	-	-	-	-	-	-	-
+4	parlato	-	-	-	-	-	-	-	-
+5	como	-	-	-	-	-	-	-	-
+6	luenga	-	-	-	-	-	-	-	-
+7	materna	-	-	-	-	-	-	-	-
+8	en	-	-	-	-	-	-	-	-
+9	o	-	-	-	-	-	-	-	-
+10	suyo	-	-	-	-	-	-	-	-
+11	nuclio	-	-	-	-	-	-	-	-
+12	orichinal	-	-	-	-	-	-	-	-
+13	,	-	-	-	-	-	-	-	-
+14	as	-	-	-	-	-	-	-	-
+15	montanyas	-	-	-	-	-	-	-	-
+16	aragonesas	-	-	-	-	-	-	-	-
+17	d'os	-	-	-	-	-	-	-	-
+18	Pirineus	-	-	-	-	-	-	-	-
+19	,	-	-	-	-	-	-	-	-
+20	en	-	-	-	-	-	-	-	-
+21	as	-	-	-	-	-	-	-	-
+22	comarcas	-	-	-	-	-	-	-	-
+23	d'o	-	-	-	-	-	-	-	-
+24	Viello	-	-	-	-	-	-	-	-
+25	Aragón	-	-	-	-	-	-	-	-
+26	(	-	-	-	-	-	-	-	-
+27	Chacetania	-	-	-	-	-	-	-	-
+28	y	-	-	-	-	-	-	-	-
+29	Alto	-	-	-	-	-	-	-	-
+30	Galligo	-	-	-	-	-	-	-	-
+31	)	-	-	-	-	-	-	-	-
+32	,	-	-	-	-	-	-	-	-
+33	Semontano	-	-	-	-	-	-	-	-
+34	,	-	-	-	-	-	-	-	-
+35	Sobrarbe	-	-	-	-	-	-	-	-
+36	y	-	-	-	-	-	-	-	-
+37	Ribagorza.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 11
+# text =  As ciudatz y villas prencipals an encara puede trobar-se fabladors patrimonials de l'aragonés son :  Uesca ,  Graus ,  Monzón ,  Balbastro ,  Fonz ,  Echo ,  Estadilla ,  Benás ,  Samianigo ,  Pandicosa ,  Chaca ,  Plan ,  Ansó ,  Ayerbe ,  Broto ,  Lo Grau.
+1	As	-	-	-	-	-	-	-	-
+2	ciudatz	-	-	-	-	-	-	-	-
+3	y	-	-	-	-	-	-	-	-
+4	villas	-	-	-	-	-	-	-	-
+5	prencipals	-	-	-	-	-	-	-	-
+6	an	-	-	-	-	-	-	-	-
+7	encara	-	-	-	-	-	-	-	-
+8	puede	-	-	-	-	-	-	-	-
+9	trobar-se	-	-	-	-	-	-	-	-
+10	fabladors	-	-	-	-	-	-	-	-
+11	patrimonials	-	-	-	-	-	-	-	-
+12	de	-	-	-	-	-	-	-	-
+13	l'aragonés	-	-	-	-	-	-	-	-
+14	son	-	-	-	-	-	-	-	-
+15	:	-	-	-	-	-	-	-	-
+16	Uesca	-	-	-	-	-	-	-	-
+17	,	-	-	-	-	-	-	-	-
+18	Graus	-	-	-	-	-	-	-	-
+19	,	-	-	-	-	-	-	-	-
+20	Monzón	-	-	-	-	-	-	-	-
+21	,	-	-	-	-	-	-	-	-
+22	Balbastro	-	-	-	-	-	-	-	-
+23	,	-	-	-	-	-	-	-	-
+24	Fonz	-	-	-	-	-	-	-	-
+25	,	-	-	-	-	-	-	-	-
+26	Echo	-	-	-	-	-	-	-	-
+27	,	-	-	-	-	-	-	-	-
+28	Estadilla	-	-	-	-	-	-	-	-
+29	,	-	-	-	-	-	-	-	-
+30	Benás	-	-	-	-	-	-	-	-
+31	,	-	-	-	-	-	-	-	-
+32	Samianigo	-	-	-	-	-	-	-	-
+33	,	-	-	-	-	-	-	-	-
+34	Pandicosa	-	-	-	-	-	-	-	-
+35	,	-	-	-	-	-	-	-	-
+36	Chaca	-	-	-	-	-	-	-	-
+37	,	-	-	-	-	-	-	-	-
+38	Plan	-	-	-	-	-	-	-	-
+39	,	-	-	-	-	-	-	-	-
+40	Ansó	-	-	-	-	-	-	-	-
+41	,	-	-	-	-	-	-	-	-
+42	Ayerbe	-	-	-	-	-	-	-	-
+43	,	-	-	-	-	-	-	-	-
+44	Broto	-	-	-	-	-	-	-	-
+45	,	-	-	-	-	-	-	-	-
+46	Lo	-	-	-	-	-	-	-	-
+47	Grau.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 12
+# text =  Altros aragoneses tamién aprenden aragonés como una segunda luenga en puestos como Uesca ,  Zaragoza ,  Exeya ,  y Teruel.
+1	Altros	-	-	-	-	-	-	-	-
+2	aragoneses	-	-	-	-	-	-	-	-
+3	tamién	-	-	-	-	-	-	-	-
+4	aprenden	-	-	-	-	-	-	-	-
+5	aragonés	-	-	-	-	-	-	-	-
+6	como	-	-	-	-	-	-	-	-
+7	una	-	-	-	-	-	-	-	-
+8	segunda	-	-	-	-	-	-	-	-
+9	luenga	-	-	-	-	-	-	-	-
+10	en	-	-	-	-	-	-	-	-
+11	puestos	-	-	-	-	-	-	-	-
+12	como	-	-	-	-	-	-	-	-
+13	Uesca	-	-	-	-	-	-	-	-
+14	,	-	-	-	-	-	-	-	-
+15	Zaragoza	-	-	-	-	-	-	-	-
+16	,	-	-	-	-	-	-	-	-
+17	Exeya	-	-	-	-	-	-	-	-
+18	,	-	-	-	-	-	-	-	-
+19	y	-	-	-	-	-	-	-	-
+20	Teruel.	-	-	-	-	-	-	-	-
+
+
+# sent_id = 13
+# text =  Seguntes os datos d'o Censo de 1981 ,  a on se incluyoron preguntas relativas a l'uso d'as luengas propias ,  a suma de fabladors no blincaba d'os 30.000 ,  fendo que l'aragonés siga una d'as luengas europeas con más gran periglo d'extinción.
+1	Seguntes	-	-	-	-	-	-	-	-
+2	os	-	-	-	-	-	-	-	-
+3	datos	-	-	-	-	-	-	-	-
+4	d'o	-	-	-	-	-	-	-	-
+5	Censo	-	-	-	-	-	-	-	-
+6	de	-	-	-	-	-	-	-	-
+7	1981	-	-	-	-	-	-	-	-
+8	,	-	-	-	-	-	-	-	-
+9	a	-	-	-	-	-	-	-	-
+10	on	-	-	-	-	-	-	-	-
+11	se	-	-	-	-	-	-	-	-
+12	incluyoron	-	-	-	-	-	-	-	-
+13	preguntas	-	-	-	-	-	-	-	-
+14	relativas	-	-	-	-	-	-	-	-
+15	a	-	-	-	-	-	-	-	-
+16	l'uso	-	-	-	-	-	-	-	-
+17	d'as	-	-	-	-	-	-	-	-
+18	luengas	-	-	-	-	-	-	-	-
+19	propias	-	-	-	-	-	-	-	-
+20	,	-	-	-	-	-	-	-	-
+21	a	-	-	-	-	-	-	-	-
+22	suma	-	-	-	-	-	-	-	-
+23	de	-	-	-	-	-	-	-	-
+24	fabladors	-	-	-	-	-	-	-	-
+25	no	-	-	-	-	-	-	-	-
+26	blincaba	-	-	-	-	-	-	-	-
+27	d'os	-	-	-	-	-	-	-	-
+28	30.000	-	-	-	-	-	-	-	-
+29	,	-	-	-	-	-	-	-	-
+30	fendo	-	-	-	-	-	-	-	-
+31	que	-	-	-	-	-	-	-	-
+32	l'aragonés	-	-	-	-	-	-	-	-
+33	siga	-	-	-	-	-	-	-	-
+34	una	-	-	-	-	-	-	-	-
+35	d'as	-	-	-	-	-	-	-	-
+36	luengas	-	-	-	-	-	-	-	-
+37	europeas	-	-	-	-	-	-	-	-
+38	con	-	-	-	-	-	-	-	-
+39	más	-	-	-	-	-	-	-	-
+40	gran	-	-	-	-	-	-	-	-
+41	periglo	-	-	-	-	-	-	-	-
+42	d'extinción.	-	-	-	-	-	-	-	-
